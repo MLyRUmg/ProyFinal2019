@@ -22,24 +22,6 @@ include_once __DIR__ . '/wp-config.common.php';
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'dugo_wrdp2');
-
-/** MySQL database username */
-define('DB_USER', 'dugo_wrdp2');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'dugo_wrdp2');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -50,14 +32,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '&D5bY9KL lD(GDIeP<CzrV[Ji+=TR[u<;BJrFb8 gy,/T.0>p*o&^~K7`WiiWlxZ');
-define('SECURE_AUTH_KEY',  'NR;@e/,/!cqzLP@+`CbQ5 #02LWT.uqnE**&(n#V2%XSK[}zV_{92@M}x5S&=d?<');
-define('LOGGED_IN_KEY',    ']2,WH2?ObnBe{1dSO#lS0~GnM/FLr%{twy*:Z_@a<W_6tI0E$p[^[t#]K#|IgZHm');
-define('NONCE_KEY',        'zB:L9ImjnO2Jy7wS2<*>=u~EH_gCVY}oEM#7H7Bi{S-~zC89ssDkEE5wd%?Kg6<7');
-define('AUTH_SALT',        'N{OuK9:[ GVte*?6=%3OsNKjz1P=O*vL5<>b-gogEuR.effx%kgI-Y3S7|P_+[ne');
-define('SECURE_AUTH_SALT', '-`tF}YpjS^OkC%xP^NEt|PlNP4bTdrl`R,R&zb;=4iUG2e9EW;0LQ70YSFKq^<[&');
-define('LOGGED_IN_SALT',   'IYl(@rblISw?to/DR+N{D<:c48Ex,4$F]J(Cd:BH0K7a5g*|)Xn*r!~W*-^;wcwN');
-define('NONCE_SALT',       '+:WvG7k4%NC3bq!1oqXK{+Sf!kh8v|b(DU{{YDRgEk3})&]I0N`egT7bEJCPymX.');
+
 
 /**#@-*/
 
