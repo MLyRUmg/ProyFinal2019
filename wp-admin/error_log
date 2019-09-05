@@ -1,0 +1,52 @@
+[03-Sep-2019 01:40:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[04-Sep-2019 05:49:03 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/themes/zerif-lite/vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-widget-dashboard-blog.php on line 375
+[04-Sep-2019 05:49:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/themes/zerif-lite/vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-widget-dashboard-blog.php on line 376
+[04-Sep-2019 14:31:48 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/themes/zerif-lite/vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-widget-dashboard-blog.php on line 375
+[04-Sep-2019 14:31:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/themes/zerif-lite/vendor/codeinwp/themeisle-sdk/class-themeisle-sdk-widget-dashboard-blog.php on line 376
+[04-Sep-2019 18:27:46 UTC] Error  de la base de datos de WordPress para la consulta select count(*) postcount,SUBSTRING(`post_date`,6,2) monthnum,SUBSTRING(`post_date`,1,4) yearnum,SUBSTRING(`post_date`,1,7) monthandyear from wp_posts  group by monthnum,yearnum  order by monthnum  realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 18:28:54 UTC] Error  de la base de datos de WordPress para la consulta select count(*) postcount,SUBSTRING(`post_date`,6,2) monthnum,SUBSTRING(`post_date`,1,4) yearnum,SUBSTRING(`post_date`,1,7) monthandyear from wp_posts  group by monthnum,yearnum  order by monthnum  realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 18:29:15 UTC] Error  de la base de datos de WordPress para la consulta select count(*) postcount,SUBSTRING(`post_date`,6,2) monthnum,SUBSTRING(`post_date`,1,4) yearnum,SUBSTRING(`post_date`,1,7) monthandyear from wp_posts  group by monthnum,yearnum  order by monthnum  realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 19:54:52 UTC] Error  de la base de datos de WordPress para la consulta SELECT 
+wp_frm_fields.id, 
+wp_frm_fields.name, 
+wp_frm_fields.type, 
+wp_frm_fields.form_id,
+wp_frm_item_metas.meta_value
+FROM wp_frm_fields
+INNER JOIN wp_frm_item_metas
+ON wp_frm_fields.id = wp_frm_item_metas.field_id
+WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 19:55:20 UTC] Error  de la base de datos de WordPress para la consulta SELECT 
+wp_frm_fields.id, 
+wp_frm_fields.name, 
+wp_frm_fields.type, 
+wp_frm_fields.form_id,
+wp_frm_item_metas.meta_value
+FROM wp_frm_fields
+INNER JOIN wp_frm_item_metas
+ON wp_frm_fields.id = wp_frm_item_metas.field_id
+WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 19:55:35 UTC] Error  de la base de datos de WordPress para la consulta SELECT 
+wp_frm_fields.id, 
+wp_frm_fields.name, 
+wp_frm_fields.type, 
+wp_frm_fields.form_id,
+wp_frm_item_metas.meta_value
+FROM wp_frm_fields
+INNER JOIN wp_frm_item_metas
+ON wp_frm_fields.id = wp_frm_item_metas.field_id
+WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 19:55:56 UTC] Error  de la base de datos de WordPress para la consulta SELECT 
+wp_frm_fields.id, 
+wp_frm_fields.name, 
+wp_frm_fields.type, 
+wp_frm_fields.form_id,
+wp_frm_item_metas.meta_value
+FROM wp_frm_fields
+INNER JOIN wp_frm_item_metas
+ON wp_frm_fields.id = wp_frm_item_metas.field_id
+WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 19:56:49 UTC] Error  de la base de datos de WordPress para la consulta SELECT wp_frm_fields.id, wp_frm_fields.name, wp_frm_fields.type, wp_frm_fields.form_id, wp_frm_item_metas.meta_value FROM wp_frm_fields INNER JOIN wp_frm_item_metas ON wp_frm_fields.id = wp_frm_item_metas.field_id WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 20:02:27 UTC] Error  de la base de datos de WordPress para la consulta SELECT wp_frm_fields.id, wp_frm_fields.name, wp_frm_fields.type, wp_frm_fields.form_id, wp_frm_item_metas.meta_value FROM wp_frm_fields INNER JOIN wp_frm_item_metas ON wp_frm_fields.id = wp_frm_item_metas.field_id WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 20:03:10 UTC] Error  de la base de datos de WordPress para la consulta SELECT wp_frm_fields.id, wp_frm_fields.name, wp_frm_fields.type, wp_frm_fields.form_id, wp_frm_item_metas.meta_value FROM wp_frm_fields INNER JOIN wp_frm_item_metas ON wp_frm_fields.id = wp_frm_item_metas.field_id WHERE type = "select" realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, call_user_func, guaven_sqlcharts_metabox, require_once('/plugins/sql-chart-builder/admin_metabox.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, guaven_sqlcharts_local_shortcode
+[04-Sep-2019 20:03:10 UTC] PHP Fatal error:  Cannot access empty property in /home1/dugo/parami.com.gt/MarcoLegalyRegulatorioUMG/wp-content/plugins/sql-chart-builder/functions.php on line 223
